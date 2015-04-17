@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="28">
-            <field name="TEXT">Mackenzies better than you</field>
+            <field name="TEXT">Aryannas ugly</field>
           </block>
         </next>
       </block>
