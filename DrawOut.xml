@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="71">
-            <field name="TEXT">mackenzie hurt my</field>
+            <field name="TEXT">stutter stutter</field>
             <next>
               <block type="oled_setcursor" id="94" inline="true">
                 <value name="STARTX">
@@ -29,7 +29,23 @@
                 </value>
                 <next>
                   <block type="oled_drawtext" id="103">
-                    <field name="TEXT">dog</field>
+                    <field name="TEXT">d-d-d-d-d-d-did I</field>
+                    <next>
+                      <block type="movement_stutter" id="141">
+                        <next>
+                          <block type="robot_delay" id="143" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="153">
+                                <field name="NUM">5000</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="movement_stop" id="171"></block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
